@@ -35,7 +35,7 @@ KUBECTL_OPTS=${KUBECTL_OPTS:-}
 ADDON_CHECK_INTERVAL_SEC=${TEST_ADDON_CHECK_INTERVAL_SEC:-60}
 ADDON_PATH=${ADDON_PATH:-/etc/kubernetes/addons}
 
-SYSTEM_NAMESPACE=kube-system
+SYSTEM_NAMESPACE=${SYSTEM_NAMESPACE:-kube-system}
 
 # Addons could use this label with two modes:
 # - ADDON_MANAGER_LABEL=Reconcile
